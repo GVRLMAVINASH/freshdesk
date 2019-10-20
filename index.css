@@ -327,17 +327,17 @@ footer{
 
 /* The button used to open the sidebar */
 .openbtn {
-  /* font-size: 20px;
+  font-size: 20px;
   cursor: pointer;
   background-color: #166359;
   color: white;
   border: none;
   width: 100%;
-  margin: 0%; */
+  margin: 0%;
 }
 
 .openbtn:hover {
-  /* background-color: #444; */
+  background-color: #444;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -350,8 +350,4 @@ footer{
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
-}
-
-.top-mobmenu{
-  background-color: #0e5049;
 }
