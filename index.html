@@ -13,23 +13,10 @@
 </head>
 
 <body>
-    <div id="main">
-        <button class="openbtn" onclick="openNav()">Toggle Sidebar&#9776; </button>
-    </div>
-    <div id="mySidebar" class="sidebar show-mobile">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">LOGIN</a>
-        <a href="#">FRESHWORKS/a>
-            <a href="#">GO TO FRESHDESK</a>
-            <a href="#">CONTACT SUPPORT</a>
-    </div>
-
-
-
-
     <!-- Top Navigation Menu -->
     <div class="topnav show-mobile">
         <a href="#home" class="active">Support Home</a>
+        Home
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
             <a href="#news">News</a>
@@ -41,6 +28,7 @@
             <i class="fa fa-caret-down"></i>
         </a>
     </div>
+
 
 
 
@@ -294,22 +282,7 @@
         } else {
             x.style.display = "block";
         }
-    }
-
-
-    function openNav() {
-        document.getElementById("mySidebar").style.width = "";
-        document.getElementById("main").style.marginRight = "250px";
-    }
-
-    /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-    function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginRight = "0";
-    }
-
-
-</script>
+    }</script>
 
 
 
