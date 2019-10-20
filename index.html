@@ -13,6 +13,35 @@
 </head>
 
 <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav show-mobile">
+        <a href="#home" class="active">Logo</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <h1 class="show-mobile">Hello world</h1>
     <div class="header  hide-mobile">
         <div class="mini-menu">
@@ -244,7 +273,15 @@
 <a href="#" class="float" target="_blank">
     <i class="fa fa-comment my-float"></i>
 </a>
-
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }</script>
 
 
 
