@@ -362,7 +362,7 @@ footer{
     border-radius: 5px;
     background-color: #fcfcfc;
     padding: 6px 10px 6px 60px;
-    width: 300px;
+    width: 350px;
 }
 #cont4{
   padding-top:20px;
@@ -374,4 +374,8 @@ footer{
 .cont4{
   text-align: center;
   margin-left:50px;
+}
+.searchb{
+  background-color:#12574f;
+  padding-bottom: 30px;
 }
