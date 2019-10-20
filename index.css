@@ -354,3 +354,13 @@ footer{
 .top-bar{
   background-color:#12574f;
 }
+.search{
+  border: none;
+    box-shadow: 0 0 0;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    padding: 6px 10px 6px 60px;
+    width: 300px;
+}
