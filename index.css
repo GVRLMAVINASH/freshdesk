@@ -331,9 +331,9 @@ footer{
   cursor: pointer;
   background-color: #166359;
   color: white;
-  padding: 10px 15px;
   border: none;
   width: 100%;
+  margin: 0%;
 }
 
 .openbtn:hover {
