@@ -245,6 +245,7 @@ footer{
 /* Mobile css */
 
 .topnav {
+  width: 100%;
   overflow: hidden;
   background-color:#166359;
   position: relative;
