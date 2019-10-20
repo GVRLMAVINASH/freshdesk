@@ -270,7 +270,7 @@ footer{
   display: block;
   position: absolute;
   right: 0;
-  /* top: 0; */
+  top: 0;
 }
 
 /* Add a grey background color on mouse-over */
@@ -294,7 +294,7 @@ footer{
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
-  right: 0;
+  left: 0;
   background-color: #111; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
