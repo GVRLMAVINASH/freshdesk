@@ -331,7 +331,7 @@ footer{
   cursor: pointer;
   background-color: #111;
   color: white;
-  padding: 15px 25px;
+  /* padding: 10px 25px; */
   border: none;
 }
 
