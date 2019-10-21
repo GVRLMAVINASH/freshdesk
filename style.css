@@ -199,7 +199,7 @@ margin-bottom: 0%;
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-/* h1{
+h1{
 	font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
     font-size: 54px;
     line-height: 54px;
@@ -209,15 +209,15 @@ margin-bottom: 0%;
     color: #FFF;
     padding-top: 68px;
     text-shadow: none;
-} */
+}
 .show-mobile h1{
 	font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
-    font-size: 10px;
+    font-size: 30px;
     line-height: 54px;
     font-weight: 600;
 	padding-top: 6%;
 	text-align: center;
     color: #FFF;
-    padding-top: 68px;
+    padding-top: 21px;
     text-shadow: none;
 }
