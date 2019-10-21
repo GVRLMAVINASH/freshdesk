@@ -249,13 +249,6 @@ h1{
 	margin-left: 16px;
 	
   }
-
-
-
-
-
-
-  
 .searchclass1{
 	margin-left:8%; 
 	margin-bottom:0;
@@ -279,4 +272,72 @@ h1{
 	margin-top: 23px;
 	margin-left: 16px;
 	
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* underline menu */
+ .undermini{
+    background-color:#1f7567;
+    /* height:50px; */
+  }
+  ul { 
+    margin: auto; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 700px;
+    text-align: center;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 1px 0;
+  }
+  b {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 1px 0px;
+    padding-bottom: 0%;
+    position: relative;
+  }
+  b:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 5;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #2ac272;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  b:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+    ul {
+      margin-top: 40px;
+    }
   }
