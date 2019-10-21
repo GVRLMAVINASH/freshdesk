@@ -501,7 +501,7 @@
 <span class="topnav show-mobile">
 	<a href="#home" class="active">OUR PRODUCTS</a>
 	<!-- Navigation links (hidden by default) -->
-	<div id="myLinks">
+	<div id="myLinks1">
 		<a href="#">Contact</a>
 		<a href="#">FAQs</a>
 		<a href="#">Solutions</a>
@@ -509,7 +509,7 @@
 		<a href="#">Training</a>
 	</div>
 	<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<a href="javascript:void(0);" class="icon" onclick="myFunction1()">
 		<i class="fa fa-caret-down"></i>
 	</a>
 </span>
@@ -527,6 +527,14 @@
 
 	function myFunction() {
 		var x = document.getElementById("myLinks");
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	}
+	function myFunction1() {
+		var x = document.getElementById("myLinks1");
 		if (x.style.display === "block") {
 			x.style.display = "none";
 		} else {
