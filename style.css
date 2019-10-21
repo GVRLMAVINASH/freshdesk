@@ -204,10 +204,9 @@ h1{
     font-size: 54px;
     line-height: 54px;
     font-weight: 600;
-	padding-top: 6%;
+	padding-top: 3%;
 	text-align: center;
     color: #FFF;
-    padding-top: 68px;
     text-shadow: none;
 }
 .show-mobile h1{
@@ -215,10 +214,9 @@ h1{
     font-size: 30px;
     line-height: 54px;
     font-weight: 600;
-	padding-top: 6%;
+	padding-top: 3%;
 	text-align: center;
     color: #FFF;
-    padding-top: 21px;
     text-shadow: none;
 }
 
@@ -273,23 +271,6 @@ h1{
 	margin-left: 16px;
 	
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  /* underline menu */
  .undermini{
