@@ -475,3 +475,13 @@ h1{
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 } */
+
+#cont3{
+  height:auto;
+  width: 16%;
+  margin-right:auto;
+  margin-left: auto;
+}
+footer{
+  margin-top:5% ;
+}
