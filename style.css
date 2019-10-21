@@ -1,0 +1,147 @@
+body,
+html {
+	overflow-x:hidden;
+}
+header{ 
+    background-image: linear-gradient(to right bottom, #09433e, #0e5049, #145d54, #1a6b5f, #21796a);
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	color: #1c1b1b;
+}
+h1
+ {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-top: 0;
+	font-size: 38px;
+}
+/*--------------------*/
+/* ABOUT US */
+/*--------------------*/
+
+
+#mu-about {
+	display: inline;
+	float:left;
+	width: 100%;
+}
+
+.mu-about-area {
+	display: inline;
+	float:left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-about-header {
+	display: inline;
+	float:left;
+	text-align: center;
+	width:100%;
+}
+
+.mu-heading-title {
+	font-weight: bold;
+	color: #1c1b1b;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.mu-header-dot {
+	background-color: #7d7373;
+	border-radius: 0;
+	height: 3px;
+	width: 100px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mu-about-content{
+	display: inline;
+	float: left;
+	margin-top: 70px;
+	width: 100%;
+}
+
+.mu-about-content-single{
+	padding-top: 20px;
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-about-icon-box {
+	font-size: 25px;
+	padding: 5px 12px;
+	margin-bottom: 30px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.mu-about-content-single h4{
+	margin-bottom: 20px;
+}
+.allcat
+  {color: #25c16f;
+    background-color: #ebf9f2;
+    border-radius: 4px;
+    padding: 11px 46px;
+    width: auto;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid 1px #25c16f;
+    display: inline-block;
+    min-height: 44px;
+    letter-spacing: 1.1px;
+    box-shadow: none;
+    position: center;
+  }
+  .allcat:hover{
+    color: #25c16f;
+    background-color: #c2f0d7;
+    border: solid 1px #25c16f;
+  }
+  .wrapper {
+	text-align: center;
+	padding-bottom:25px;
+  }
+  .signbtn{
+    border-radius: 3px;
+    text-transform: uppercase;
+    background-color: #25c16f;
+    color: #fff;
+    padding: 8px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    border: solid 1px #25c16f;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.pattern{
+  height: 120px;
+background:
+linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+background-color:#e1ebbd;
+background-size: 128px 128px;
+margin-bottom: 0%;
+}
+
+@media only screen and (min-device-width: 481px) {
+	.show-mobile {
+	  display: none;
+	}
+	.hide-mobile {
+	  display: block;
+	}
+  }
