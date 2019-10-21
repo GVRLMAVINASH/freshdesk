@@ -123,14 +123,32 @@
 			<logo><img style="width: 38%; height:15%;margin-left: 9%; padding-top: 1.5%;"
 					src="assets/images/freshdesk.png">
 			</logo>
-			<div class="dropdown1 show-mobile">
-				<button class="dropbtn1 show-mobile">Support Home</button>
-				<div class="dropdown-content1 show-mobile">
-					<a href="#">Link 1</a>
-					<a href="#">Link 2</a>
-					<a href="#">Link 3</a>
+
+
+
+
+
+
+			<!-- Top Navigation Menu -->
+			<span class="topnav show-mobile">
+				<a href="#home" class="active">Support Home</a>
+				<!-- Navigation links (hidden by default) -->
+				<div id="myLinks">
+					<a href="#">Contact</a>
+					<a href="#">FAQs</a>
+					<a href="#">Solutions</a>
+					<a href="#">Community</a>
+					<a href="#">Training</a>
 				</div>
-			</div>
+				<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-caret-down"></i>
+				</a>
+			</span>
+
+
+
+
 			<h1> We are here to help! </h1>
 			<div class="searchclass1 show-mobile">
 				<i class="icon-search1 show-mobile"></i>
@@ -396,5 +414,28 @@
 	</div>
 
 </body>
+
+
+
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myLinks");
+		if (x.style.display === "block") {
+			x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+	}
+	function openNav() {
+		document.getElementById("mySidebar").style.width = "100%";
+		document.getElementById("main").style.marginRight = "0%";
+	}
+	/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+	function closeNav() {
+		document.getElementById("mySidebar").style.width = "0";
+		document.getElementById("main").style.marginRight = "0";
+	}
+</script>
 
 </html>
