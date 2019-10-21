@@ -410,10 +410,7 @@ h1{
   color: white;
 }
 
-
-
-
-* Mobile side bar menu*/
+/* Mobile side bar menu*/
 
 /* The sidebar menu */
 .sidebar {
@@ -471,4 +468,10 @@ h1{
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
