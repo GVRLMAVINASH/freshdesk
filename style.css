@@ -254,12 +254,12 @@ h1{
 
 
   
-.show-mobile searchclass{
+.searchclass1{
 	margin-left:27% ;
 	margin-bottom:0;
 }
 
-.show-mobile search{
+.search1{
 	border: none;
 	  box-shadow: 0 0 0;
 	  height: 70px;
@@ -269,7 +269,7 @@ h1{
 	  padding: 6px 10px 6px 60px;
 	  width: 90%;
   }
-  .show-mobile icon-search {
+  .icon-search1 {
 	background: url(https://company-assets.freshworks.com/freshdesk-portal/search@3x.png) no-repeat -1px -2px/112%;
 	width: 30px;
 	height: 50px;
